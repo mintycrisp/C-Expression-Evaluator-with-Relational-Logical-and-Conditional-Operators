@@ -17,7 +17,7 @@ This project extends a C++ program designed to evaluate expressions from a custo
 - **Relational Operators**: `<`, `=`.
 - **Logical Operators**: `&` (AND), `|` (OR), `!` (NOT).
 - **Conditional (Ternary) Operator**: A custom syntax where the third operand represents the condition.
-- Logical and relational operators are implemented with single-symbol syntax (`&` instead of `&&`), and negation uses postfix notation (`!`).
+- Logical and relational operators use single-symbol syntax (`&` instead of `&&`), and negation is postfix (`!`).
 
 ### Input Handling
 
@@ -58,6 +58,37 @@ This project extends a C++ program designed to evaluate expressions from a custo
 ### Building the Project
 
 1. Clone the repository:
+git clone https://github.com/yourusername/expression-evaluator-extension.git
 
-   ```bash
-   git clone https://github.com/yourusername/expression-evaluator-extension.git
+2. Navigate to the project directory:
+cd expression-evaluator-extension
+
+3. Compile the project using a C++ compiler:
+g++ -o expression_evaluator main.cpp
+Running the Program
+Prepare an input file with multiple expressions, each on a new line.
+
+4. Run the compiled program:
+./expression_evaluator input.txt
+
+Review the output, which will display the evaluation result of each expression.
+
+### Lessons Learned
+
+### Error Handling
+- Initially, error handling was basic, catching only simple issues like undeclared variables or duplicate assignments. As the project evolved, refining error messages to provide clear, actionable feedback became crucial, improving both user experience and program robustness.
+
+### Syntax Extensions
+- Implementing non-standard syntax for logical and conditional operators required a deep understanding of parsing techniques and careful adjustments to the program's grammar.
+
+### Future Enhancements
+- Enhanced Error Messages
+- Future versions could further refine error messages to clarify issues and suggest potential fixes.
+- Expanded Operator Support
+- Adding support for more complex operators and expressions could enhance the program's utility.
+
+- User Interface
+- A graphical or command-line interface could be developed to improve user interaction.
+
+### Conclusion
+- This project successfully extends the functionality of an expression evaluator in C++, providing support for a wider range of operators, improved input handling, and integer-based arithmetic. It serves as a foundation for further enhancements and a deeper exploration of expression parsing and evaluation in C++.
