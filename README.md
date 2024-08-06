@@ -58,7 +58,7 @@ This project extends a C++ program designed to evaluate expressions from a custo
 ### Building the Project
 
 1. Clone the repository:
-git clone https://github.com/yourusername/expression-evaluator-extension.git
+git clone [https://github.com/yourusername/expression-evaluator-extension.git](https://github.com/mintycrisp/C-Expression-Evaluator-with-Relational-Logical-and-Conditional-Operators.git)
 
 2. Navigate to the project directory:
 cd expression-evaluator-extension
