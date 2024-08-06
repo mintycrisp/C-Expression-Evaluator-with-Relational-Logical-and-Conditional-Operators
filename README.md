@@ -73,7 +73,7 @@ Prepare an input file with multiple expressions, each on a new line.
 
 Review the output, which will display the evaluation result of each expression.
 
-### Lessons Learned
+## Lessons Learned
 
 ### Error Handling
 - Initially, error handling was basic, catching only simple issues like undeclared variables or duplicate assignments. As the project evolved, refining error messages to provide clear, actionable feedback became crucial, improving both user experience and program robustness.
@@ -90,5 +90,5 @@ Review the output, which will display the evaluation result of each expression.
 - User Interface
 - A graphical or command-line interface could be developed to improve user interaction.
 
-### Conclusion
+## Conclusion
 - This project successfully extends the functionality of an expression evaluator in C++, providing support for a wider range of operators, improved input handling, and integer-based arithmetic. It serves as a foundation for further enhancements and a deeper exploration of expression parsing and evaluation in C++.
