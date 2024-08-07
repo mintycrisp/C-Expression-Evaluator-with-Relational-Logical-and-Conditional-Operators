@@ -74,7 +74,7 @@ Prepare an input file with multiple expressions, each on a new line.
 Review the output, which will display the evaluation result of each expression.
 
 ## Output
-![image](https://github.com/user-attachments/assets/ea4582ca-cc34-4f7e-a591-c3051d24ffb6)
+![355646747-ea4582ca-cc34-4f7e-a591-c3051d24ffb6](https://github.com/user-attachments/assets/922c388f-e92e-4762-b81c-0d19b63f9792)
 
 
 ## Lessons Learned
